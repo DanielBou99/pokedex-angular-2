@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@use './config-scss/variables.scss';
+@use './config-scss/reset.css';
+@use './config-scss/rem-calc.scss';
+@use './config-scss/btn.scss';
+@import './config-scss/animation.scss';
+
+html {
+	font-family: 'Roboto', sans-serif;
+	background: var(--primary-color);
+}
+
+main {
+	max-width: rem-calc(600);
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 auto;
+}
