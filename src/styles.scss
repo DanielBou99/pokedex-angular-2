@@ -1,7 +1,7 @@
-@use './config-scss/variables.scss';
-@use './config-scss/reset.css';
-@use './config-scss/rem-calc.scss';
-@use './config-scss/btn.scss';
+@import './config-scss/variables.scss';
+@import './config-scss/reset.css';
+@import './config-scss/rem-calc.scss';
+@import './config-scss/btn.scss';
 @import './config-scss/animation.scss';
 
 html {
